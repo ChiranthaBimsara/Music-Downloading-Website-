@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe5e5; /* Light pink background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #f8b4b4; /* Hero section pink color */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.hero button {
+    background-color: #ff5f5f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.recent-albums, .recent-songs, .artists, .customers {
+    margin-bottom: 50px;
+}
+
+.recent-albums h2, .recent-songs h2, .artists h2, .customers h2 {
+    font-size: 2rem;
+    color: #ff5f5f; /* Titles in strong pink */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.albums-list, .artists-list, .testimonials-grid, .songs-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.album-item, .artist-item, .song-item {
+    width: 200px;
+    text-align: center;
+}
+
+.album-item img, .artist-item img, .song-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.album-item p, .artist-item p, .song-details p {
+    margin-top: 10px;
+}
+
+.song-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.song-details button {
+    background-color: #ff5f5f;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-item {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    color: #666;
+}
+
+

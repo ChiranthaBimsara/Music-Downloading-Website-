@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #000000;
+    padding: 20px;
+    /* Add more header styles as needed */
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Album Info Section */
+.album-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.album-cover {
+    margin-right: 20px;
+}
+
+.album-cover img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.album-details h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ffffff;
+}
+
+.album-details h2 {
+    font-size: 1.5em;
+    color: #b3b3b3;
+    margin-top: 10px;
+}
+
+/* Track List Section */
+.track-list {
+    background-color: #181818;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.track-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #282828;
+}
+
+.track-item:last-child {
+    border-bottom: none;
+}
+
+.track-item h3 {
+    flex: 1;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.track-item audio {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.music-video-btn {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.music-video-btn:hover {
+    background-color: #1ed760;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .album-info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .album-cover {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .track-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .track-item audio {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .music-video-btn {
+        width: 100%;
+    }
+}

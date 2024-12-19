@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Album Page Styles */
+.album-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+}
+
+.album-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.album-poster {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.album-info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.album-info p {
+    margin: 5px 0 0;
+    font-size: 18px;
+    color: #BBBBBB;
+}
+
+.song-list {
+    border-top: 1px solid #333333;
+}
+
+.song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #333333;
+}
+
+.song-info h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+/* Music Video Button Styles */
+.btn-music-video {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #1DB954;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.btn-music-video:hover {
+    background-color: #1AA34A;
+    transform: translateY(-2px);
+}
+
+/* Additional Styling */
+.btn-music-video:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ .heart-icon {
+            font-size: 24px;
+            color: gray;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .heart-icon.favorited {
+            color: red;
+        }
+
